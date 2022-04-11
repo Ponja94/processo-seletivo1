@@ -1,0 +1,37 @@
+OBJETIVO
+
+O objetivo dessa etapa é programar o layout em HTML + CSS + Javascript, conforme os links abaixo:
+
+JPEG
+https://processoseletivo.bertholdo.com.br/frontend/LayoutTeste.jpg
+PSD
+https://processoseletivo.bertholdo.com.br/frontend/LayoutTeste.psd
+
+Algumas observações:
+
+- Os banners devem ser rotativos.
+- As fontes utilizadas no projeto foram:
+    Menu: Georgia Regular
+    Títulos, Destaque e Rodapé: Roboto Thin
+    Botões: PT Sans Narrow Bold
+    Valor do produto: Open Sans Bold
+
+
+DIFERENCIAIS
+
+Serão considerados como diferenciais:
+    - Entrega antecipada
+    - Utilizar HTLM5 e CSS3.
+    - Uso de framework CSS (Bootstrap, Foudation...).
+    - Uso de framework Javascript (Jquery ou Angular ou Prototype…).
+    - Os trabalhos entregues com layouts responsivos.
+
+ENTREGA
+
+O material finalizado deve ser enviado para priscila@bertholdo.com.br .
+
+Deve-se enviar o material em arquivo compactado ou disponibilizado por link. Utilizar o título: “Seleção 2022/04 – Estágio Front-end”. Quaisquer considerações ou observações devem ser redigidas no corpo do email.
+
+Obs: os trabalhos entregues depois do prazo, não serão avaliados.
+
+* Prazo: até 14/04/2021 às 09:00h

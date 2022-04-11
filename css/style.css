@@ -1,0 +1,51 @@
+header{
+	font-family: 'Poppins', sans-serif;
+	color: #FFF;
+}
+
+#menu-header{
+	height: 100px;
+	background: #ff0000;
+	color: #FFF;
+}
+
+
+#header-up{
+
+	background: #c10202;
+	padding-top: 10px;
+	font-size: 0.9em;
+	height: 40px;
+	padding-right: 165px;
+
+}
+
+.cor-txt-menu-header{
+	color: #f4bf77;
+}
+.cor-icon-search{
+	color: #ff0000;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.nav-link{
+	font-size: 0.9em;
+}
+
+/*
+	- Os banners devem ser rotativos.
+	- As fontes utilizadas no projeto foram:
+    Menu: Georgia Regular
+    Títulos, Destaque e Rodapé: Roboto Thin
+    Botões: PT Sans Narrow Bold
+    Valor do produto: Open Sans Bold
+*/
