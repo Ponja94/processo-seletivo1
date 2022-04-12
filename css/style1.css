@@ -1,8 +1,13 @@
+html{
+	margin: 0;
+	overflow-x: hidden;
+	max-width: 1350px;
+}
 
 /* cabecalio  */
 
 #cabecalio{
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	max-height: 140px;
 	background: #ff0000;
 }
@@ -81,28 +86,91 @@ li, #nav-principal {
 
 /* whats  */
 #whats{
+	background: #FFF;
 	height: 380px;
 	
+}
+#whats-btn{
+	background: #67bb34;
+	color: #FFF;
+	font-weight: bolder;
 }
 
 /* cadastro  */
 #cadastro{
+	background-image: url(../img/form.png);
+	background-repeat: no-repeat;
+	background-size: 1400px 530px;
 	height: 530px;
-	
+	color: #FFF;	
 }
+
+
+
 
 /* rodape  */
 #rodape{
+	font-family: 'Roboto', sans-serif;
 	max-height: 400px;
 
 }
 
 #cima-rodape{
 	height: 355px;
+	background: #231f20;
+	color: #FFF;
+    padding-left: 165px;
+    padding-top: 80px;
+    font-size: 0.85em;
 }
 
+.fonte-logo-rodape{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+li, #nav-principal {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.nav-link {
+	padding-bottom: 0;
+	color: #b6b5b5;
+}	
+
+.h5, h5 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#redes .fa-brands{
+
+	color: #f92525;
+}
+.row {
+	--bs-gutter-x: 0rem;
+}
+
+
+
+/* rodape baixo */
+
 #baixo-rodape{
+	color: #8d8d8e;
+	background: #100e0f;
 	height: 45px;
+	text-align: center;
+	font-size: 0.65em;
+}
+
+#img-logo-rodape{
+	height: 20px;
+}
+
+.diminuir-letra-nome{
+	font-size: 0.6em;
 }
 
 
@@ -117,6 +185,11 @@ li, #nav-principal {
 		padding-right: 0px;
 		font-size: 0.6em;
 	}
+
+	.nav-link {
+	padding: 0rem 0rem;
+	color: #b6b5b5;
+	}	
 	/* cabecalio baixo */
 	.fonte-logo{
 	    font-size: 2.2em;
@@ -128,8 +201,17 @@ li, #nav-principal {
 	/* cabecalio cima */
 	#cima-cabecalio{
 		padding-top: 0.7%;
-		padding-right: 10px;
-		font-size: 0.65em;
+		padding-right: 1px;
+		font-size: 0.55em;
+	}	
+	.nav-link {
+	padding: 0rem 0rem;
+	color: #b6b5b5;
+	}	
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
 	}
 
 	/* cabecalio baixo */
@@ -146,7 +228,12 @@ li, #nav-principal {
 		padding-right: 40px;
 		font-size: 0.8em;
 	}	
-
+	
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
+	}
 
 	/* cabecalio baixo */
 	.navbar-light .navbar-nav .nav-link {
@@ -179,6 +266,11 @@ li, #nav-principal {
 		padding-top: 0.7%;
 		padding-right: 100px;
 		font-size: 0.8em;
+	}
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
 	}
 
 	/* cabecalio baixo */

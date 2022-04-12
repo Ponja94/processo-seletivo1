@@ -125,6 +125,10 @@
 
     </nav>
 
+
+
+
+
     <nav id="botoes" class="border">
 
     </nav>
@@ -134,61 +138,122 @@
     </nav>
 
     <nav id="whats" class="border">
-      
+      <div class="container mt-5">
+        <div class="row ps-5">
+          <div class="col-md-6 ps-5">
+            <img src="img/whats.png">
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-uppercase">Solicite seu orçamento pelo whatsapp</h1>
+            <p>Venda exclusiva para lojistas</p>
+            <button class="btn btn-lg text-uppercase" id="whats-btn">Converse com a gente</button>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <nav id="cadastro" class="border">
-      
+    <nav id="cadastro">
+      <div class="container pt-5">
+        <div class="row pt-5">
+          <div class="col-md-6">
+            <h1 class="text-uppercase">seja um revendedor e obtenha grandes lucros</h1>
+            <p>Cadastre-se usando o formulário do lado</p>
+          </div>
+
+          <div class="col-md-6">
+            <form>
+              <div class="row">
+                <div class="col me-5 ms-2 mt-4">
+                  <label for="nome">Nome *</label>
+                  <input type="text" class="form-control" aria-label="name">
+                </div>
+                <div class="col ms-2 me-2 mt-4">
+                  <label for="sobrenome">Sobrenome *</label>
+                  <input type="text" class="form-control" aria-label="sobrename">
+                </div>
+              </div>
+
+              <div class="form-group me-2 ms-2 mt-4">
+                <label for="email">E-mail *</label>
+                <input class="form-control" type="email" aria-label="E mail">
+              </div>
+
+              <div class="row me-2 ms-2 mt-4">
+                <div class="col me-5">
+                  <label for="nome">Telefone *</label>
+                  <input type="phone" class="form-control" aria-label="First name">
+                </div>
+
+                <div class="col">
+                  <label for="nome">Link para CV *</label>
+                  <input type="text" class="form-control" aria-label="Last name">
+                </div>
+
+              </div>
+
+              <button class="btn btn-outline-light w-100 text-uppercase mt-5">Enviar meu cadastro</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <footer id="rodape" class="border">
-      <div id="cima-rodape" class="border bg-secondary">
+    <footer id="rodape">
+      <div id="cima-rodape" class="">
         <div>
-          <h1>Logotipo</h1>
+          <h1 class="fonte-logo-rodape text-uppercase">Logotipo</h1>
         </div>  
         <div class="row">
           
           <div class="col-md-2">
-            <ul class="navbar-nav">
-              <li><a href=""></a>Quem somos</li>
-              <li><a href=""></a>Gôndulas</li>
-              <li><a href=""></a>Móveis de Aço</li>
-              <li><a href=""></a>Armazenagem</li>
-              <li><a href=""></a>Contato</li>
+            <ul class="navbar-nav text-uppercase">
+              <li><a href="#" class="nav-link">Quem somos</a></li>
+              <li><a href="#" class="nav-link">Gôndulas</a></li>
+              <li><a href="#" class="nav-link">Móveis de Aço</a></li>
+              <li><a href="#" class="nav-link">Armazenagem</a></li>
+              <li><a href="#" class="nav-link">Contato</a></li>
             </ul>
           </div>
+
           <div class="col-md-2">
-            <ul class="navbar-nav">
-              <li><a href=""></a>Faça seu orçamento</li>
-              <li><a href=""></a>Seja um colaborador</li>
-              <li><a href=""></a>Siga-nos nas redes</li>
+            <ul class="navbar-nav text-uppercase">
+              <li><a href="#" class="nav-link">Faça seu orçamento</a></li>
+              <li><a href="#" class="nav-link">Seja um colaborador</a></li>
+              <li class="mt-4">Siga-nos nas redes</li>
+              <div id="redes">
+                <a href="#"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-3x ms-3"></i></a>
+              </div>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h5>Loja BH (a 5km do centro!)</h4>
-            <p>Av. Professor Mário Werneck, 26 - 2° andar</p>
-            <p>Belo Horizonte - MG, CEP:30455-610</p>
-            <p>comercial@comercial.com.br</p>
-            <p>(31) 3333-3333</p>
-            <p>(31) 93333-3333</p>
+
+          <div class="col-md-4 enderecos">
+            <h5>Loja BH (a 5km do centro!)</h5>
+            <p>Av. Professor Mário Werneck, 26 - 2° andar<br>
+            Belo Horizonte - MG, CEP:30455-610<br>
+            comercial@comercial.com.br</p>
+            <p class="cor-dos-dados"><i class="fa-solid fa-phone me-1"></i>(31) 3333-3333<br>
+            <i class="fa-brands fa-whatsapp me-1"></i>(31) 93333-3333</p>
           </div>
-          <div class="col-md-4">
-            <h5>Loja BH (a 5km do centro!)</h4>
-            <p>Av. Professor Mário Werneck, 26 - 2° andar</p>
-            <p>Belo Horizonte - MG, CEP:30455-610</p>
-            <p>comercial@comercial.com.br</p>
-            <p>(31) 3333-3333</p>
-            <p>(31) 93333-3333</p>
+
+          <div class="col-md-3 enderecos">
+            <h5>Loja BH (a 5km do centro!)</h5>
+            <p>Av. Professor Mário Werneck, 26 - 2° andar<br>
+            Belo Horizonte - MG, CEP:30455-610<br>
+            comercial@comercial.com.br</p>
+            <p class="cor-dos-dados"><i class="fa-solid fa-phone me-1"></i>(31) 3333-3333<br>
+            <i class="fa-brands fa-whatsapp me-1"></i>(31) 93333-3333</p>
           </div>
         </div>
       </div>
 
-      <div id="baixo-rodape" class="border bg-light">
+      <div id="baixo-rodape" class="pt-3">
         
-        <img src="">
+        <a href="#"><img src="img/logo-bertholdo.png" id="img-logo-rodape"></a>
         <span>VERSATTI WEB:</span>
         <span>Você escolhe as funcionalidades do seu site de acordo com as necessidades da sua empresa.</span>
-        <span>VERSATTI WEB</span>
+        <span class="diminuir-letra-nome">VERSATTI WEB</span>
       </div>
 
     </footer>
