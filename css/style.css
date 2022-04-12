@@ -1,3 +1,7 @@
+html{
+	overflow-x: hidden;
+}
+
 header{
 	font-family: 'Poppins', sans-serif;
 	color: #FFF;
@@ -40,6 +44,50 @@ header{
 .nav-link{
 	font-size: 0.9em;
 }
+
+
+
+/* slider */
+.container-floud{
+	padding: 0;
+}
+
+#carousel-home .carousel-inner, #carousel-home .carousel-item{
+	height: 450px;
+}
+
+.carousel-caption{
+	left: 58%;
+	bottom: 15%;
+	width: 400px;
+	text-align: right;
+}
+
+.btn-cor{
+	font-weight: bold;
+	background: #ffdd8a;
+	color: #000;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 575.98px) { ... }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
 
 /*
 	- Os banners devem ser rotativos.
