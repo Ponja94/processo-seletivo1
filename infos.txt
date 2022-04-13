@@ -1,11 +1,16 @@
 Como desenvolvi o trabalho:
 
-HTML5 
-CSS3
-Utilizando bootstrap 5.113
-OwlCarousel2 2.3.4
+Desenvolvi o modelo proposto e deixei todos os pontos que possuíam um link com a "#". Além dos botões para abrir abas o whats como pontos para serem editados.
+
+Utilizei meus conhecimentos com: HTML5, CSS3, Bootstrap 5.113 e aprendi usar OwlCarousel2 2.3.4
 
 Dificuldades enfrentadas:
-Responsividade (abaixo de 768px)
-carousel
-fontes (as fontes indicadas no corpo do e-mail não ficavam bonitas ou batiam com o projeto no photoshop)
+- Deixar o site responsivo abaixo de 768px, vai ser algo que vou estudar bastante pra futuros projetos
+- Utilização de carousel para os produtos, me motivou procurar uma solução interessante tipo o OwlCarousel2
+- As fontes propostas não se pareciam com o projeto no photoshop, então tomei a liberadade de suprimir algumas.
+
+- As fontes utilizadas no projeto foram:
+    Menu: Georgia Regular
+    Títulos, Destaque e Rodapé: Roboto Thin
+    Botões: PT Sans Narrow Bold
+    Valor do produto: Open Sans Bold

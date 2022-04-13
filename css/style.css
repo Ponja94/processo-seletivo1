@@ -16,6 +16,7 @@ body{
 	background: #ff0000;
 }
 
+
 #cima-cabecalho{
 	padding-top: 0.7%;
 	padding-right: 165px;
@@ -29,6 +30,12 @@ body{
 
 .cor-dos-dados{
 	color: #f4bf77;
+	text-decoration: none;
+}
+
+.cor-dos-dados:hover{
+	color: #fff;
+	text-decoration: none;
 }
 
 /* cabecalho baixo */
@@ -77,7 +84,8 @@ li, #nav-principal {
 }
 
 .btn-cor{
-	font-weight: bold;
+	font-family: 'PT Sans Narrow Bold',sans-serif;
+	font-weight: bolder;
 	background: #ffdd8a;
 	color: #000;
 }
@@ -92,6 +100,8 @@ li, #nav-principal {
 	align-content: center;
 	width: 450px;
 }
+
+
 
 /* botoes  */
 #botoes{
@@ -112,12 +122,24 @@ li, #nav-principal {
 	width: 280px;
 }
 
+.btn-add-font{
+	font-family: 'PT Sans Narrow Bold', sans-serif;
+	font-weight: bolder;
+}
+
+
+
 /* produtos  */
 #produtos{
 	text-align: center;
 	background: #ebebeb;
 	height: 720px;
 	
+}
+
+.edit-letra{
+	font-family: 'Open Sans Bold',sans-serif;
+	font-weight: bolder;
 }
 
 .desconto{
@@ -151,9 +173,10 @@ li, #nav-principal {
 	
 }
 #whats-btn{
+	font-family: 'PT Sans Narrow Bold', sans-serif;
+	font-weight: bolder;
 	background: #67bb34;
 	color: #FFF;
-	font-weight: bolder;
 }
 
 /* cadastro  */
@@ -163,6 +186,11 @@ li, #nav-principal {
 	background-size: 1400px 530px;
 	height: 530px;
 	color: #FFF;	
+}
+
+#btn-form{
+	font-family: 'PT Sans Narrow Bold', sans-serif;
+	font-weight: bolder;
 }
 
 .tamanho-letra-cadastro{
@@ -250,11 +278,15 @@ li, #nav-principal {
 	margin-left: -300px;
 }
 .position-dropup-menu{
+	font-family: 'PT Sans Narrow Bold', sans-serif;
+	font-weight: bolder;
 	margin-right: -1000px;
 	margin-top: -42px;
 }
 
 .btn-modificando{
+	font-family: 'PT Sans Narrow Bold', sans-serif;
+	font-weight: bolder;
 	background: #67bd31;
 	color: #FFF;
 	height: 50px;
@@ -321,6 +353,8 @@ li, #nav-principal {
 	}
 
 	.btn-tamanho-resp{
+		font-family: 'PT Sans Narrow Bold', sans-serif;
+		font-weight: bolder;
 		direction
 		font-size: 0.5em;
 	}
@@ -352,6 +386,7 @@ li, #nav-principal {
 	.navbar-light .navbar-nav .nav-link {
 	    font-size: 0.75em;
 	    margin-right: -3px;
+	    font-family: 'Georgia Regular',sans-serif;
 	}
 
 	.btn-group-sm>.btn, .btn-sm {
