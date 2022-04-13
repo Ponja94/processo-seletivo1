@@ -1,0 +1,11 @@
+Como desenvolvi o trabalho:
+
+HTML5 
+CSS3
+Utilizando bootstrap 5.113
+OwlCarousel2 2.3.4
+
+Dificuldades enfrentadas:
+Responsividade (abaixo de 768px)
+carousel
+fontes (as fontes indicadas no corpo do e-mail não ficavam bonitas ou batiam com o projeto no photoshop)

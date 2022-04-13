@@ -1,66 +1,79 @@
 html{
+	margin: 0;
 	overflow-x: hidden;
+	max-width: 1350px;
+	min-width: 577px;
+}
+body{
+		min-width: 577px;
 }
 
-header{
-	font-family: 'Poppins', sans-serif;
-	color: #FFF;
-}
+/* cabecalho  */
 
-#menu-header{
-	height: 100px;
+#cabecalho{
+	font-family: 'Roboto', sans-serif;
+	max-height: 140px;
 	background: #ff0000;
-	color: #FFF;
 }
 
-
-#header-up{
-
-	background: #c10202;
-	padding-top: 10px;
-	font-size: 0.9em;
-	height: 40px;
+#cima-cabecalho{
+	padding-top: 0.7%;
 	padding-right: 165px;
-
+	text-align: right;
+	font-weight: bold;
+	font-size: 0.85em;
+	color: #FFF;
+	background: #c10202;
+	height: 40px;
 }
 
-.cor-txt-menu-header{
+.cor-dos-dados{
 	color: #f4bf77;
 }
-.cor-icon-search{
-	color: #ff0000;
+
+/* cabecalho baixo */
+
+#baixo-cabecalho{
+	color: #FFF;
+	height: 100px;
 }
 
-.h1, h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: #FFF;
+#nav-principal{
+	text-align: right;
+}
+
+li, #nav-principal {
+    padding-right: 20px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.2rem 0.4rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #FFF;
+    font-weight: bold;
+    font-size: 0.9em;
 }
 
-.nav-link{
-	font-size: 0.9em;
+.fonte-logo{
+	color: #FFF;
+	font-weight: bolder;
+    font-size: 2.2em;
+    padding-left: 30px;
+}
+
+.navbar-light .navbar-toggler {
+	padding-right: 50px;
+    color: rgba(0,0,0,.55);
+    border: none;
 }
 
 
-
-/* slider */
-.container-floud{
-	padding: 0;
-}
-
-#carousel-home .carousel-inner, #carousel-home .carousel-item{
+/* banner  */
+#banner{
 	height: 450px;
-}
-
-.carousel-caption{
-	left: 58%;
-	bottom: 15%;
-	width: 400px;
-	text-align: right;
+	background: #000;
 }
 
 .btn-cor{
@@ -69,31 +82,377 @@ header{
 	color: #000;
 }
 
+.tamanho-title{
+	font-weight: bolder;
+}
 
-.carousel-control-next, .carousel-control-prev {
-	width: 5%;
+.carousel-tamanho{
+	margin-left: 500px;
+	text-align: right;
+	align-content: center;
+	width: 450px;
+}
+
+/* botoes  */
+#botoes{
+	height: 180px;
+	background: #000;
+	color: #f4bf77;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 1.2em;
+}
+
+#botoes button{
+	font-size: 0.9em;
+}
+#botoes p{
+	margin-left: 30px;
+	width: 280px;
+}
+
+/* produtos  */
+#produtos{
+	text-align: center;
+	background: #ebebeb;
+	height: 720px;
+	
+}
+
+.desconto{
+	text-decoration: line-through;
+	font-weight: 0.5em;
+	color: #aaaaaa;
+}
+
+.letra-maior-bold{
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+.letra-pequena{
+	color: #aaaaaa;
+	font-size: 0.8em;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}
+
+/* whats  */
+.formatacao-texto-whats{
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+
+#whats{
+	background: #FFF;
+	height: 380px;
+	
+}
+#whats-btn{
+	background: #67bb34;
+	color: #FFF;
+	font-weight: bolder;
+}
+
+/* cadastro  */
+#cadastro{
+	background-image: url(../img/form.png);
+	background-repeat: no-repeat;
+	background-size: 1400px 530px;
+	height: 530px;
+	color: #FFF;	
+}
+
+.tamanho-letra-cadastro{
+	font-size: 2.5em;
+	width: 470px;
+	font-weight: bolder;
+}
+.tamanho-letra-menor{
+	width: 450px;
+	font-weight: bolder;
 }
 
 
-/* Responsividade */
+/* rodape  */
+#rodape{
+	font-family: 'Roboto', sans-serif;
+	max-height: 400px;
 
-@media (max-width: 575.98px) { ... }
+}
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+#cima-rodape{
+	height: 355px;
+	background: #231f20;
+	color: #FFF;
+    padding-left: 165px;
+    padding-top: 80px;
+    font-size: 0.85em;
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+.fonte-logo-rodape{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+li, #nav-principal {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.nav-link {
+	padding-bottom: 0;
+	color: #b6b5b5;
+}	
+
+.h5, h5 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#redes .fa-brands{
+
+	color: #f92525;
+}
+.row {
+	--bs-gutter-x: 0rem;
+}
+
+
+
+/* rodape baixo */
+
+#baixo-rodape{
+	color: #8d8d8e;
+	background: #100e0f;
+	height: 45px;
+	text-align: center;
+	font-size: 0.65em;
+}
+
+#img-logo-rodape{
+	height: 20px;
+}
+
+.diminuir-letra-nome{
+	font-size: 0.6em;
+}
+
+.position-css1{
+	margin-top: -100px;
+	margin-left: -305px;
+}
+.position-css2{
+	margin-top: -21px;
+	margin-left: -300px;
+}
+.position-dropup-menu{
+	margin-right: -1000px;
+	margin-top: -42px;
+}
+
+.btn-modificando{
+	background: #67bd31;
+	color: #FFF;
+	height: 50px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/* Responsividade */ 
+
+@media (max-width: 575.98px) {
+
+	#cima-cabecalho{
+		padding-top: 0.7%;
+		padding-right: 0px;
+		font-size: 0.6em;
+	}
+
+	.nav-link {
+	padding: 0rem 0rem;
+	color: #b6b5b5;
+	}	
+	/* cabecalho baixo */
+	.fonte-logo{
+	    font-size: 2.2em;
+	    padding-left: 80px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* cabecalho cima */
+	#cima-cabecalho{
+		padding-top: 0.7%;
+		padding-right: 1px;
+		font-size: 0.55em;
+	}	
+	.nav-link {
+		padding: 0rem 0rem;
+		color: #b6b5b5;
+	}	
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
+	}
+
+	/* cabecalho baixo */
+	.fonte-logo{
+	    font-size: 2.2em;
+	    padding-left: 80px;
+	}
+
+	.carousel-tamanho {
+	    margin-left: -120px;
+	    text-align: right;
+	    align-content: center;
+	    width: 700px;
+	}
+
+	.carousel-tamanho {
+		font-size: 0.65em;
+	}
+
+	.carousel-caption {
+	    padding-bottom: 0rem;
+	}
+
+	.btn-tamanho-resp{
+		direction
+		font-size: 0.5em;
+	}
+
+	/* whats */
+	.imagem-tam{
+		width: 200px;
+		height: 200px;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* cabecalho cima */
+	#cima-cabecalho{
+		padding-top: 0.7%;
+		padding-right: 40px;
+		font-size: 0.8em;
+	}	
+	
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
+	}
+
+	/* cabecalho baixo */
+	.navbar-light .navbar-nav .nav-link {
+	    font-size: 0.75em;
+	    margin-right: -3px;
+	}
+
+	.btn-group-sm>.btn, .btn-sm {
+    padding: 0.2rem 0.4rem;
+    margin-right: -50px;
+    font-size: .7rem;
+    border-radius: 0.2rem;
+	}
+
+	.fonte-logo{
+	    font-size: 1.7em;
+	    margin-left: -5px;
+	    padding-left: 0px;
+	}
+
+	li, #nav-principal {
+ 	   padding-right: 0px;
+	}
+	/* banner */
+	#banner {
+	    height: 300px;
+	}
+	
+	.carousel-tamanho {
+	    margin-left: 100px;
+	    text-align: right;
+	    align-content: center;
+	    width: 450px;
+	}
+
+	.carousel-tamanho {
+		font-size: 0.8em;
+	}
+
+	.carousel-caption {
+	    padding-bottom: 0rem;
+	}
+
+	/* botoes */
+	#botoes {
+		display: none;
+	}
+	/* form */
+
+	.tamanho-letra-cadastro{
+		font-size: 1.2em;
+		width: 350px;
+		font-weight: bolder;
+	}
+
+	.tamanho-letra-menor{
+		font-size: 1em;
+		width: 350px;
+		font-weight: bolder;
+	}	
+	/* whats */
+	.imagem-tam{
+		width: 200px;
+		height: 200px;
+		margin-top: 50px;
+	}
+
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	/* cabecalho cima */
+	#cima-cabecalho{
+		padding-top: 0.7%;
+		padding-right: 100px;
+		font-size: 0.8em;
+	}
+	#cima-rodape{
+	    padding-left: 65px;
+	    padding-top: 50px;
+	    font-size: 0.75em;
+	}
+
+	/* cabecalho baixo */
+	.navbar-light .navbar-nav .nav-link {
+	    font-size: 0.8em;
+	}
+
+	.fonte-logo{
+	    font-size: 2em;
+	    padding-left: 10px;
+	}
+
+	li, #nav-principal {
+ 	   padding-right: 15px;
+	}
+
+	/* banner */
+	#banner {
+	    height: 350px;
+	}
+
+	.carousel-tamanho{
+		margin-left: 350px;
+		text-align: right;
+		align-content: center;
+		width: 400px;
+	}
 
 }
-
-
-
-/*
-	- Os banners devem ser rotativos.
-	- As fontes utilizadas no projeto foram:
-    Menu: Georgia Regular
-    Títulos, Destaque e Rodapé: Roboto Thin
-    Botões: PT Sans Narrow Bold
-    Valor do produto: Open Sans Bold
-*/
